@@ -26,7 +26,7 @@ export const artistData: ArtistInfo = {
   socialLinks: {
     youtube: "https://www.youtube.com/channel/UC-cp8JR-fh2j0AH4ZTl6gsg",
     facebook: "https://www.facebook.com/anjilaregmiprofile",
-    instagram: "https://www.instagram.com/anjila_regmi_official/",
+    instagram: "https://www.instagram.com/anjilaregmiofficial/",
     spotify: "https://open.spotify.com/search/Anjila%20Regmi",
     tiktok: "https://www.tiktok.com/@anjilaregmi"
   },
