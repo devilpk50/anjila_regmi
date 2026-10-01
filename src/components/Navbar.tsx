@@ -62,18 +62,25 @@ export const Navbar: React.FC<NavbarProps> = ({ isPlayingAudio, onToggleAudio })
         }`}
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
-          {/* Logo */}
+          {/* Logo with Gold AR Emblem */}
           <a
             href="#home"
-            className="group flex flex-col tracking-widest text-left"
+            className="group flex items-center gap-2.5 sm:gap-3 text-left"
             aria-label="Anjila Regmi Official Home"
           >
-            <span className="font-cinzel text-lg sm:text-xl font-bold tracking-[0.25em] text-ivory group-hover:text-gold transition-colors">
-              ANJILA
-            </span>
-            <span className="font-cormorant text-xs sm:text-sm tracking-[0.35em] text-gold-300 font-light -mt-1 group-hover:text-gold-100 transition-colors">
-              REGMI
-            </span>
+            <div className="w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-gradient-to-tr from-gold-600 via-gold to-gold-light p-[1.5px] shadow-[0_0_15px_rgba(212,175,55,0.35)] group-hover:scale-105 group-hover:shadow-[0_0_20px_rgba(212,175,55,0.6)] transition-all">
+              <div className="w-full h-full rounded-full bg-charcoal-950 flex items-center justify-center">
+                <span className="font-cinzel text-xs sm:text-sm font-black text-gold-gradient tracking-tighter">AR</span>
+              </div>
+            </div>
+            <div className="flex flex-col tracking-widest">
+              <span className="font-cinzel text-base sm:text-lg font-bold tracking-[0.25em] text-ivory group-hover:text-gold transition-colors leading-none">
+                ANJILA
+              </span>
+              <span className="font-cormorant text-[11px] sm:text-xs tracking-[0.35em] text-gold-300 font-light group-hover:text-gold-100 transition-colors">
+                REGMI
+              </span>
+            </div>
           </a>
 
           {/* Desktop Navigation Links (Exactly 5 items) */}

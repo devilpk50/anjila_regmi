@@ -18,13 +18,20 @@ export const Footer: React.FC = () => {
           
           {/* Col 1: Large Brand Header */}
           <div className="md:col-span-6 space-y-4 text-left">
-            <a href="#home" className="inline-block group">
-              <span className="font-cinzel text-2xl sm:text-3xl font-extrabold tracking-[0.25em] text-ivory group-hover:text-gold transition-colors block">
-                ANJILA REGMI
-              </span>
-              <span className="font-nepali text-gold-300 text-sm tracking-normal">
-                {artistData.nepaliName}
-              </span>
+            <a href="#home" className="inline-flex items-center gap-3 group">
+              <div className="w-11 h-11 rounded-full bg-gradient-to-tr from-gold-600 via-gold to-gold-light p-[1.5px] shadow-[0_0_15px_rgba(212,175,55,0.35)] group-hover:scale-105 transition-transform shrink-0">
+                <div className="w-full h-full rounded-full bg-charcoal-950 flex items-center justify-center">
+                  <span className="font-cinzel text-sm font-black text-gold-gradient tracking-tighter">AR</span>
+                </div>
+              </div>
+              <div className="flex flex-col">
+                <span className="font-cinzel text-2xl sm:text-3xl font-extrabold tracking-[0.25em] text-ivory group-hover:text-gold transition-colors block leading-tight">
+                  ANJILA REGMI
+                </span>
+                <span className="font-nepali text-gold-300 text-sm tracking-normal">
+                  {artistData.nepaliName}
+                </span>
+              </div>
             </a>
 
             <p className="font-cormorant text-lg sm:text-xl text-gold-200 font-light tracking-widest uppercase">
