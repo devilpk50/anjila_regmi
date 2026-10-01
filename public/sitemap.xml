@@ -1,9 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
   <url>
-    <loc>https://anjilaregmi.com/</loc>
-    <lastmod>2026-09-25</lastmod>
-    <changefreq>weekly</changefreq>
+    <loc>https://achyut-five.vercel.app/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>daily</changefreq>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://achyut-five.vercel.app/images/A1.jpg</image:loc>
+      <image:title>Anjila Regmi - Official Nepali Singer &amp; Music Artist</image:title>
+      <image:caption>Official portrait and music discography of Anjila Regmi</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://achyut-five.vercel.app/images/B.jpg</image:loc>
+      <image:title>Anjila Regmi Live Stage Performance</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://achyut-five.vercel.app/images/c.jpg</image:loc>
+      <image:title>Anjila Regmi - Cultural Heritage &amp; Traditional Nepali Music</image:title>
+    </image:image>
   </url>
 </urlset>
